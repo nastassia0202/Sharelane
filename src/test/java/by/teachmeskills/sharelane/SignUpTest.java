@@ -21,7 +21,7 @@ public class SignUpTest {
         driver.findElement(By.name("password2")).sendKeys("12345678");
         driver.findElement(By.cssSelector("[value='Register']")).click();
 
-        Thread.sleep(60000);
+        Thread.sleep(50000);
         driver.quit();
     }
     }
